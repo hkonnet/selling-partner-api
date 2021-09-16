@@ -340,7 +340,7 @@ class Configuration
      * 
      * @return string|null
      */
-    public function getAwsSecretAccessKey(): string|null
+    public function getAwsSecretAccessKey()
     {
         return $this->auth->getAwsSecretAccessKey();
     }
