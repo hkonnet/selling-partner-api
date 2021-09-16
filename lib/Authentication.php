@@ -412,7 +412,7 @@ class Authentication
      * 
      * @return string|null
      */
-    public function getAwsSecretAccessKey(): string|null
+    public function getAwsSecretAccessKey()
     {
         return $this->awsSecretAccessKey;
     }
