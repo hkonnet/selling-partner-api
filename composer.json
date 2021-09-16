@@ -22,11 +22,11 @@
         }
     ],
     "require": {
-        "php": ">=7.3",
+        "php": ">=7.0",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "guzzlehttp/guzzle":  "^6.2|^7.0",
+        "guzzlehttp/guzzle":  "^6.2|^6.5|^7.0",
         "phpoffice/phpspreadsheet": "^1.18",
         "aws/aws-sdk-php": "^3.185"
     },
